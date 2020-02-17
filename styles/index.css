@@ -1,0 +1,35 @@
+#main {
+    padding-left: 24em;
+    padding-top: 7em;
+}
+
+#ratelabel {
+    margin-left: 2em;
+}
+
+#tip {
+    border: none;
+}
+
+#total {
+    margin-bottom: 1.5em;
+}
+
+#grandtotal {
+    border: none;
+}
+
+#tax {
+    border: none;
+}
+
+h1 {
+    padding-left: 5em;
+    padding-bottom: 1em;
+    text-shadow: black;
+    
+}
+
+#btn {
+    margin-left: 7.5em;
+}

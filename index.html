@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Maitre D</title>
+    <meta name="description" content="Maitre-D Bill Calculation">
+    <meta name="author" content="Ravi Teja Pagidoju">
+
+    <!-- get current Bootstrap Material Design styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container" style="width: 100%;" >
+        <b>
+            <h1>Maitre D</h1>
+        </b>
+        <div class="row" id="myrow">
+            <div class="col-md-12">
+                <form id="myform">
+                    <b><label for="total">Total:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="total" type="text"><br></br>
+                    <b><label for="tip">Tip:</label></b>&nbsp;&nbsp;
+                    <input id="tip" type="text">
+                    <b><label for="rate" id="ratelabel">Rate:</label></b>&nbsp;&nbsp;
+                    <input id="rate" type="text"><br></br>
+                    <b><label for="tax">Tax:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="tax" type="text"><br></br>
+                    <b><label for="grandtotal">Grand Total:</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="grandtotal" type="text"><br></br>
+                    <input type="button" value="Calculate" id="btn" class="btn btn-primary">
+            </div>
+            </form>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
