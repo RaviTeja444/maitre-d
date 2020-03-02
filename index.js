@@ -7,7 +7,7 @@ function functioncalc() {
     const rate = document.getElementById('rate').value;
     const tip = rate * total / 100;
     const tax = (55 * total / 1000).toFixed(4);
-    const grandtotal = Number(total) + tip + tax;
+    const grandtotal = Number(total) +Number(tip) + Number(tax);
     document.getElementById('tip').value = '$'+tip;
     document.getElementById('tax').value = '$'+tax;
     document.getElementById('grandtotal').value = '$'+grandtotal;
